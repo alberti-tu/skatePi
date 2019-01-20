@@ -1,0 +1,7 @@
+{
+  "name": "skatePi_client",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

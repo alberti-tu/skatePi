@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{ device.name || 'Unnamed' }}</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="disconnect()">Disconnect</button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <button ion-button color="primary" (click)="sendOn()">ON</button>
+  <button ion-button color="danger"  (click)="sendOff()">OFF</button>
+</ion-content>
